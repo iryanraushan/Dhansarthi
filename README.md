@@ -114,42 +114,6 @@ src/
 └── routes/             # Route setup and protection logic
 ```
 
-## Getting Started
-
-### What you need
-
-- Node.js 18 or higher
-- npm or yarn
-
-### Installation Steps
-
-1. Clone the project:
-```bash
-git clone <repository-url>
-cd Dhansarthi
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Create a `.env` file with your Supabase keys:
-```bash
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_KEY=your_supabase_anon_key
-```
-
-4. Start developing:
-```bash
-npm run dev
-```
-
-5. Build for production:
-```bash
-npm run build
-```
-
 ## How Authentication Works
 
 Here's what happens when a user logs in:
@@ -216,14 +180,6 @@ These hooks make data fetching simple:
 - `useLivePrice()` - Connect to Binance WebSocket for real-time prices
 - `useCoin()` - Complete hook that combines everything for coin detail pages
 
-## Browser Support
-
-Works in all modern browsers:
-
-- Chrome and Edge (latest 2 versions)
-- Firefox (latest 2 versions)
-- Safari on desktop and iPhone
-- Chrome on Android
 
 ## Contributing
 
@@ -235,15 +191,3 @@ We'd love your help. If you want to add features or fix bugs:
 4. Open a pull request with a description of what you changed
 
 For big changes, open an issue first so we can discuss the approach.
-
-## License
-
-Open source under the MIT License. Feel free to use, modify, and share.
-
-## Support
-
-Have questions or found a bug? Open an issue on GitHub and let us know.
-
----
-
-Built for crypto enthusiasts who want clean, fast tools for tracking the market.
